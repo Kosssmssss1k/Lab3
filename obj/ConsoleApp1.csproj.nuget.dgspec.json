@@ -49,13 +49,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "xunit.assert": {
+            "xunit": {
               "target": "Package",
-              "version": "[2.9.2, )"
+              "version": "[2.4.1, )"
             },
-            "xunit.extensibility.core": {
+            "xunit.runner.visualstudio": {
               "target": "Package",
-              "version": "[2.9.2, )"
+              "version": "[2.4.3, )"
             }
           },
           "imports": [
